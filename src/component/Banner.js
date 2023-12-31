@@ -48,7 +48,8 @@ export const Banner = () =>{
                         <h1>{`Hi! I'm Diya`}
                         <br/>
                         <span className="wrap">A{text}</span></h1>
-                        <p>my name is diya ghodasara</p>
+                        <p>My name is Diya Ghodasara. </p>
+                        <p>With a robust Computer Science education, I adeptly apply theoretical knowledge to practical projects, fostering problem-solving skills. Quick to grasp new concepts, I stay updated on industry trends, showcasing responsibility, drive, and leadership prowess.</p>
                         
                     </Col>
                     <Col xs={12} md={6} xl={5}>

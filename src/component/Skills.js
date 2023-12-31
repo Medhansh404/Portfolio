@@ -45,7 +45,7 @@ export const Skills = ()=>{
                     <Col>
                         <div className="skill-bx">
                             <h2>Skills</h2>
-                            <p>this is a paragraph to be added</p>
+                            <p>"Proficient in cutting-edge technologies and programming languages, I bring a versatile skill set to deliver innovative solutions and drive success in dynamic projects."</p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 {skillsData.map((skill, index) => (
                                     <div key={index}>

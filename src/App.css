@@ -339,9 +339,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
-  margin: 14px auto 30px auto;
+  margin: 14px auto 10px auto;
   text-align: center;
   width: 72%;
+}
+.project .link-dir{
+  font-style: italic;
+  font-size: 13px;
+  margin-bottom: 20px;
+  text-decoration: underline;
 }
 .project .nav.nav-pills {
   width: 72%;
@@ -579,14 +585,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .extra-list .list-group .list-group-item {
-  background-color: #f7b3f4; /* Lilac background color */
+  background-color: #dbc0e2; /* Lilac background color */
   color: rgb(28, 19, 36); /* Medium text color */
   font-weight: bold; /* Medium font weight */
   border-color: #39284d;
 }
 
 .extra-list .list-group .list-group-item:hover {
-  background-color: #b458b1; /* Adjusted color on hover if desired */
+  background-color: #9a81b7; /* Adjusted color on hover if desired */
   color: #333; /* Adjusted text color on hover if desired */
 }
 /************ Contact ************/

@@ -26,10 +26,10 @@ export const Achievement = ()=>{
         }
       };
       const data = [
-        { image: leetcode, title: "Leetcode" ,description :"achieved highest rating of 1651"},
-        { image: coding, title: "Coding Platforms", description :"solved 650+ question across various coding platforms"},
-        { image: jeemain, title: "Jee Mains" , description :"obtained 97.4 percentile in JEE MAINS 2021"},
-        { image: jeeadv, title: "Jee Advanced", description :"obtained 16819 rank in JEE Advanced 2021" },
+        { image: leetcode, title: "Leetcode" ,description :"Achieved the Highest Rating of 1651"},
+        { image: coding, title: "Coding Platforms", description :"Solved 650+ question across various coding platforms"},
+        { image: jeemain, title: "Jee Mains" , description :"Obtained 97.4 percentile in JEE MAINS 2021"},
+        { image: jeeadv, title: "Jee Advanced", description :")btained 16819 rank in JEE Advanced 2021" },
         
       ];
     return (
@@ -39,7 +39,7 @@ export const Achievement = ()=>{
                     <Col>
                         <div className="achievement-bx">
                             <h2>Achievements</h2>
-                            <p>this is a paragraph to be added</p>
+                            <p>"Discover my achievements, a culmination of dedication and excellence. From academic milestones to impactful Ratings, each accomplishment reflects my commitment to continuous growth and delivering exceptional results."</p>
                             <Carousel responsive={responsive} infinite={true} className="achievement-slider">
                                 
                                 {data.map((achievement, index) => (
